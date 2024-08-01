@@ -6,6 +6,7 @@
 
 int _printf(const char *format, ...);
 char *convert(unsigned long int num, int base, int lowercase);
+void handle_numbers(va_list args, int *count);
 char *print_number(int num);
 void carry_chars(va_list argums, int *count);
 void carry_strings(va_list argums, int *count);
