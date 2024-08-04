@@ -6,7 +6,7 @@
  */
 void carry_integers(va_list argums, int *count)
 {
-	int n = va_arg(args, int);
+	int n = va_arg(argums, int);
 	int num = n;
 	int divisor = 1;
 	char digit;
