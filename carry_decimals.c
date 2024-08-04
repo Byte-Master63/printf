@@ -7,5 +7,5 @@
  */
 void carry_decimals(va_list argums, int *count)
 {
-        carry_integers(argums, count);
+	carry_integers(argums, count);
 }
