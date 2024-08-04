@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * carry_integers - Handles the %i specifier
- * @args: The arguments list
+ * @argums: The arguments list
  * @count: The pointer to the character count
  */
-void carry_integers(va_list args, int *count)
+void carry_integers(va_list argums, int *count)
 {
 	int n = va_arg(args, int);
 	int num = n;
