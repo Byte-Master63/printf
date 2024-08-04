@@ -4,6 +4,8 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+void carry_decimals(va_list argums, int *count);
+void carry_integers(va_list argums, int *count);
 int _printf(const char *format, ...);
 char *convert(unsigned long int num, int base, int lowercase);
 void handle_numbers(va_list args, int *count);

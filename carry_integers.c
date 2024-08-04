@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * carry_integers - Handles the %i specifier
  * @args: The arguments list

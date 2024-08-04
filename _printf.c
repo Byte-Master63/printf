@@ -51,6 +51,14 @@ void handle_specifier(const char *format, va_list argums, int *count, int *i)
 	{
 		carry_strings(argums, count);
 	}
+	else if (format[*i] == 'd')
+	{
+		carry_decimals(argums, count);
+	}
+	else if (format[*i] == 'i')
+	{
+		carry_integers(argums, count);
+	}
 	else if (format[*i] == '%')
 	{
 		write(1, "%", 1);
